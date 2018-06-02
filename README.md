@@ -3,4 +3,4 @@ Manager.io dockerized
 
 Exposes the manager on port 8080
 
-The data is stored in the volume `/managerdata`
+The data is stored in the volume `/var/lib/manager`

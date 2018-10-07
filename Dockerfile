@@ -1,6 +1,6 @@
 # the latest version can be found at curl http://www.manager.io/version.txt
 FROM ubuntu:18.04
-ENV VER=18.9.35
+ENV VER=18.10.27
 RUN apt-get -y update && \
   apt-get -y install curl && \
   curl --output Manager.deb https://d2ap5zrlkavzl7.cloudfront.net/$VER/Manager.deb && \
